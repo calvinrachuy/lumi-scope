@@ -1,0 +1,17 @@
+{
+  "css.format.braceStyle": "collapse",
+  "css.format.spaceAroundSelectorSeparator": true,
+  "css.lint.boxModel": "warning",
+  "css.lint.compatibleVendorPrefixes": "warning",
+  "css.lint.duplicateProperties": "warning",
+  "css.lint.float": "warning",
+  "css.lint.idSelector": "warning",
+  "css.lint.ieHack": "error",
+  "css.lint.important": "warning",
+  "css.lint.importStatement": "warning",
+  "css.lint.universalSelector": "warning",
+  "css.lint.unknownVendorSpecificProperties": "warning",
+  "css.lint.zeroUnits": "warning",
+  "scss.format.enable": false,
+  "editor.autoIndent": "none"
+}

@@ -1,0 +1,70 @@
+.item {
+  border: 0;
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  outline: 0;
+  padding: 8px 16px;
+}
+
+.item:focus,
+.item:hover {
+  background-color: var(--blue-light);
+}
+
+.item:last-of-type {
+  border-radius: 0 0 8px 8px;
+  padding-bottom: 16px;
+}
+
+.image-container {
+  color: var(--gray-dark);
+  padding: 0;
+  text-align: center;
+  width: 48px;
+}
+
+.image-container svg {
+  width: 48px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 100%;
+}
+
+.info * {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.name {
+  font-weight: 500;
+  margin-right: 12px;
+}
+
+.name-and-description {
+  display: flex;
+  justify-content: space-between;
+  text-transform: capitalize;
+}
+
+.details {
+  color: var(--gray-dark);
+  font-size: 0.775em;
+}
+
+.star {
+  color: var(--gray-light);
+  cursor: pointer;
+  padding: 0;
+  text-align: center;
+  width: 48px;
+}
+
+.starred .star {
+  color: var(--gold);
+}

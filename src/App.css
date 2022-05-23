@@ -1,0 +1,71 @@
+header {
+  color: white;
+  padding: 16px;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header > * {
+  width: 100%;
+}
+  
+.starred-count-container {
+  display: flex;
+  font-size: 1.1em;
+  justify-content: flex-end;
+}
+
+.starred-count {
+  background-color: rgb(45, 45, 93);
+  border-radius: 18px;
+  padding: 0.4em 1.1em;
+}
+
+.starred-count .icon {
+  font-size: 0.9em;
+  padding-right: 8px;
+  color: var(--gold);
+}
+
+.starred-count {
+  color: white;
+}
+
+.title {
+  color: white;
+  margin: 0;
+}
+
+.graphic {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.graphic svg {
+  height: 160px;
+  margin: -24px -16px;
+}
+
+@media screen and (max-width: 720px) {
+  header {
+    padding: 16px 0;
+    width: 80vw;
+    margin: 0 auto;
+    align-items: center;
+  }
+
+  .title {
+    text-align: left;
+  }
+
+  .graphic {
+    display: none;
+  }
+}
+
+.page {
+  padding: 16px;
+}

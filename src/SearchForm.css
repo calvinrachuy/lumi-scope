@@ -1,0 +1,27 @@
+.form-container {
+  margin: 0 auto;
+  max-width: 1024px;
+  width: 80vw;
+}
+
+.search-input {
+  border-radius: 16px;
+  border: 0;
+  font-size: 1.15em;
+  margin: 0;
+  outline: 0;
+  padding: 12px 72px;
+  width: 100%;
+}
+
+.search-input.expanded {
+  border-bottom: 1px solid lightgray;
+  border-radius: 8px 8px 0 0;
+}
+
+.search-results {
+  background-color: white;
+  border-radius: 0 0 8px 8px;
+  margin: 0 auto;
+  width: 100%;
+}
