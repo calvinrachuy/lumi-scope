@@ -1,3 +1,11 @@
+# Integration tests
+
+Integration tests are available with [cypress.io](https://www.cypress.io/), currently configured with `baseUrl: 'http://localhost:3000'`
+
+## Other notes
+
+Cypress ships with Mocha assertions by default. To quickly simplify linting, the eslint Jest plugin was removed.
+
 # LumiScope backend
 
 This repository contains a local mock backend server as well as an empty React app using `create-react-app`, which you should use as a starting point.
